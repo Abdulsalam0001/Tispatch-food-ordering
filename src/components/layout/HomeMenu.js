@@ -47,26 +47,26 @@ export default function HomeMenu() {
           <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
-          <img src="" alt="pounded-yam" className="w-full" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsojoM4vwjmYSJOlH1NbF6gvJwAT68p5fycA&s" alt="pounded-yam" className="w-full" />
           <h4 className="font-semibold my-2">Pounded Yam & Egusi</h4>
           <p className="text-gray-500 text-sm">Pounded Yam with Egusi soup</p>
           <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuU8BUFh1i74t2JqgRRW5n5WDrzRI9ayI6Fg&s" alt="fried-rice" className="w-full" />
-          <h4 className="font-semibold my-2">Fried Rice & Dodo</h4>
-          <p className="text-gray-500 text-sm">Fried Rice served with spicy dodo fries</p>
+          <h4 className="font-semibold my-2">White Rice & Dodo</h4>
+          <p className="text-gray-500 text-sm">White Rice served with spicy dodo fries</p>
           <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
-          <img src="" alt="eba-ogbono" className="w-full" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSDmQ3vfEz9_TM1GSvWq9nLw3VgDPEOi0-aw&s" alt="eba-ogbono" className="w-full" />
           <h4 className="font-semibold my-2">Eba & Ogbono</h4>
           <p className="text-gray-500 text-sm">Traditional Eba with savory Ogbono soup</p>
           <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
-          <img src="" alt="suya-special" className="w-full" />
-          <h4 className="font-semibold my-2">Suya Special</h4>
+          <img src="https://photos.tryotter.com/cdn-cgi/image/fit=crop,width=640,height=429,quality=60,format=auto/storefront-photos/54757add-91ba-4cba-a83b-625734dc4adf.png" alt="suya-special" className="w-full" />
+          <h4 className="font-semibold my-2">Fufu and Vegetable soup</h4>
           <p className="text-gray-500 text-sm">Spicy grilled suya with peppers and onions</p>
           <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
         </div>
