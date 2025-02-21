@@ -33,33 +33,44 @@ export default function HomeMenu() {
           <MenuItem key={item._id} {...item} />
         ))}
       </div>
-       <div className="grid grid-cols-3 gap-4">
-        <div className="bg-gray-300 p-4">
-          <img src="" alt="amala" />
-          <h4 className="font-semibold my-2" >Amala Ewedu & Gbegiri </h4>
-          <p className="text-gray-500 text-sm" >
-        Amala & Gbegiri with  Ewedu
-          </p>
-          <button className="bg-primary text-white rounded-full px-4 py-2" > Order Now</button>
+      <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
+          <img src="" alt="amala" className="w-full" />
+          <h4 className="font-semibold my-2">Amala Ewedu & Gbegiri</h4>
+          <p className="text-gray-500 text-sm">Amala & Gbegiri with Ewedu</p>
+          <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
         </div>
-        <div className="bg-gray-300 p-4">
-          <img src="" alt="jollof-rice" />
-          <h4 className="font-semibold my-2" >Jollof Rice & Chicken</h4>
-          <p className="text-gray-500 text-sm" >
-        Jollof Rice with spicy chicken
-          </p>
-          <button className="bg-primary text-white rounded-full px-4 py-2" > Order Now</button>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
+          <img src="" alt="jollof-rice" className="w-full" />
+          <h4 className="font-semibold my-2">Jollof Rice & Chicken</h4>
+          <p className="text-gray-500 text-sm">Jollof Rice with spicy chicken</p>
+          <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
         </div>
-        <div className="bg-gray-300 p-4">
-          <img src="" alt="pounded-yam" />
-          <h4 className="font-semibold my-2" >Pounded Yam & Egusi</h4>
-          <p className="text-gray-500 text-sm" >
-        Pounded Yam with Egusi soup
-          </p>
-          <button className="bg-primary text-white rounded-full px-4 py-2" > Order Now</button>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
+          <img src="" alt="pounded-yam" className="w-full" />
+          <h4 className="font-semibold my-2">Pounded Yam & Egusi</h4>
+          <p className="text-gray-500 text-sm">Pounded Yam with Egusi soup</p>
+          <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
         </div>
-        </div> 
+        <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
+          <img src="" alt="fried-rice" className="w-full" />
+          <h4 className="font-semibold my-2">Fried Rice & Dodo</h4>
+          <p className="text-gray-500 text-sm">Fried Rice served with spicy dodo fries</p>
+          <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
+        </div>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
+          <img src="" alt="eba-ogbono" className="w-full" />
+          <h4 className="font-semibold my-2">Eba & Ogbono</h4>
+          <p className="text-gray-500 text-sm">Traditional Eba with savory Ogbono soup</p>
+          <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
+        </div>
+        <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
+          <img src="" alt="suya-special" className="w-full" />
+          <h4 className="font-semibold my-2">Suya Special</h4>
+          <p className="text-gray-500 text-sm">Spicy grilled suya with peppers and onions</p>
+          <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
+        </div>
+      </div>
     </section>
-
   );
 }
