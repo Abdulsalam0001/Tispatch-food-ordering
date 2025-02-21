@@ -35,13 +35,13 @@ export default function HomeMenu() {
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
-          <img src="" alt="amala" className="w-full" />
+          <img src="https://lh7-us.googleusercontent.com/docsz/AD_4nXe4u6jag2F77f6MPQkgVDjywfiiqtE6uD17w3ZQ4BDE0RTyX5dGYQe6haTa5u6ylXyKj51wttBEJPh69LovfSitiBE8CzYclzpORNKEJA0wEhlTRP4r69OWbh_IQMIn_uNZMy1X8qVcU3MQsVYZYfi7WO0?key=kAcOj5nUVQLHTA7ACkTUWg" alt="amala" className="w-full" />
           <h4 className="font-semibold my-2">Amala Ewedu & Gbegiri</h4>
           <p className="text-gray-500 text-sm">Amala & Gbegiri with Ewedu</p>
           <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
-          <img src="" alt="jollof-rice" className="w-full" />
+          <img src="https://zenaskitchen.com/wp-content/uploads/2022/12/jollof-rice.jpg" alt="jollof-rice" className="w-full" />
           <h4 className="font-semibold my-2">Jollof Rice & Chicken</h4>
           <p className="text-gray-500 text-sm">Jollof Rice with spicy chicken</p>
           <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
@@ -53,7 +53,7 @@ export default function HomeMenu() {
           <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
         </div>
         <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
-          <img src="" alt="fried-rice" className="w-full" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuU8BUFh1i74t2JqgRRW5n5WDrzRI9ayI6Fg&s" alt="fried-rice" className="w-full" />
           <h4 className="font-semibold my-2">Fried Rice & Dodo</h4>
           <p className="text-gray-500 text-sm">Fried Rice served with spicy dodo fries</p>
           <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
