@@ -3,6 +3,7 @@ import Header from "@/components/layout/Header";
 import { Roboto } from 'next/font/google'
 import './globals.css'
 import {Toaster} from "react-hot-toast";
+import HomeMenu from "@/components/layout/HomeMenu";
 
 const roboto = Roboto({ subsets: ['latin'], weight: ['400', '500', '700'] })
 
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
           <AppProvider>
             <Toaster />
             <Header />
+          
             {children}
             <footer className="border-t p-8 text-center text-gray-500 mt-16">
               &copy; 2025 Tispatch Food Delivery All rights reserved

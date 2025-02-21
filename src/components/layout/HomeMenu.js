@@ -26,13 +26,40 @@ export default function HomeMenu() {
       <div className="text-center mb-4">
         <SectionHeaders
           subHeader={'check out'}
-          mainHeader={'Our Best Sellers'} />
+          mainHeader={'Tispatch food menu'} />
       </div>
       <div className="grid sm:grid-cols-3 gap-4">
         {bestSellers?.length > 0 && bestSellers.map(item => (
           <MenuItem key={item._id} {...item} />
         ))}
       </div>
+       <div className="grid grid-cols-3 gap-4">
+        <div className="bg-gray-300 p-4">
+          <img src="" alt="amala" />
+          <h4 className="font-semibold my-2" >Amala Ewedu & Gbegiri </h4>
+          <p className="text-gray-500 text-sm" >
+        Amala & Gbegiri with  Ewedu
+          </p>
+          <button className="bg-primary text-white rounded-full px-4 py-2" > Order Now</button>
+        </div>
+        <div className="bg-gray-300 p-4">
+          <img src="" alt="jollof-rice" />
+          <h4 className="font-semibold my-2" >Jollof Rice & Chicken</h4>
+          <p className="text-gray-500 text-sm" >
+        Jollof Rice with spicy chicken
+          </p>
+          <button className="bg-primary text-white rounded-full px-4 py-2" > Order Now</button>
+        </div>
+        <div className="bg-gray-300 p-4">
+          <img src="" alt="pounded-yam" />
+          <h4 className="font-semibold my-2" >Pounded Yam & Egusi</h4>
+          <p className="text-gray-500 text-sm" >
+        Pounded Yam with Egusi soup
+          </p>
+          <button className="bg-primary text-white rounded-full px-4 py-2" > Order Now</button>
+        </div>
+        </div> 
     </section>
+
   );
 }

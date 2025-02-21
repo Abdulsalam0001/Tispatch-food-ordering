@@ -26,6 +26,7 @@ Fast and reliable delivery with easy app navigation
 .</p>
         </div>
       </section>
+      
       <section className="text-center my-8" id="contact">
         <SectionHeaders
           subHeader={'Need help with your order?'}
