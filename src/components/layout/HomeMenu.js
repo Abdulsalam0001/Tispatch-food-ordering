@@ -67,7 +67,7 @@ export default function HomeMenu() {
         <div className="bg-white shadow-md rounded-lg overflow-hidden p-4">
           <img src="https://photos.tryotter.com/cdn-cgi/image/fit=crop,width=640,height=429,quality=60,format=auto/storefront-photos/54757add-91ba-4cba-a83b-625734dc4adf.png" alt="suya-special" className="w-full" />
           <h4 className="font-semibold my-2">Fufu and Vegetable soup</h4>
-          <p className="text-gray-500 text-sm">Spicy grilled suya with peppers and onions</p>
+          <p className="text-gray-500 text-sm">Fufu and Vegetable soup  </p>
           <button className="bg-primary text-white rounded-full px-4 py-2">Order Now</button>
         </div>
       </div>
